@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 90px;
+    background-color: #434343;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    padding-right: 90px;
+}
+
+.navigation__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.navigation__link:hover {
+    cursor: pointer;
+    color: #C6F8FF;
+    text-decoration: underline;
+    transition: 0.2s ease-out;
+}
+
+.navigation__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main {
+    margin: auto;
+}
+
+.container__text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #434343;
+}
+
+.container__title {
+    margin-bottom: 3px;
+}
+
+.container__title__text {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.container__subtitle {
+    margin-bottom: 28px;
+}
+
+.container__subtitle__text {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.container__description {
+    margin: auto;
+    max-width: 940px;
+}
+
+.container__description__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.container__features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 200px;
+}
+
+.features__row {
+    display: flex;
+}
+
+.features__row:first-child {
+    margin-bottom: 55px;
+}
+
+.features__item {
+    background: #C6F8FF;
+    border-radius: 20px;
+    width: 400px;
+    height: 360px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__item:nth-child(2n+1) {
+    margin-right: 60px;
+}
+
+.features__image {
+    margin-bottom: 15px;
+}
+
+.features__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 25px;
+    color: #434343;
+}
+
+.features__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #434343;
+}
+
+.footer {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 90px;
+    background-color: #434343;
+}
+
+.about {
+    max-width: 300px;
+    text-align: right;
+}
